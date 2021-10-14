@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>ALPHA</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta name="description" content="Red Dot Animation" />
+	<meta content="https://images-ext-2.discordapp.net/external/EsWU0uoIqK91LpTLWQqiBqujgr4MwucdFyoL9gco2Jw/%3Fsize%3D2048/https/cdn.discordapp.com/avatars/767223932884353044/ba31845f0dbe8e39df9638b489b338cb.webp" property="og:image">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0" />
+	<meta name="theme-color" content="#00fff2">
+	<link rel="shortcut icon" href="https://images-ext-2.discordapp.net/external/EsWU0uoIqK91LpTLWQqiBqujgr4MwucdFyoL9gco2Jw/%3Fsize%3D2048/https/cdn.discordapp.com/avatars/767223932884353044/ba31845f0dbe8e39df9638b489b338cb.webp"
+	 type="image/x-icon">
+	<link rel="icon" href="https://images-ext-2.discordapp.net/external/EsWU0uoIqK91LpTLWQqiBqujgr4MwucdFyoL9gco2Jw/%3Fsize%3D2048/https/cdn.discordapp.com/avatars/767223932884353044/ba31845f0dbe8e39df9638b489b338cb.webp" type="image/x-icon">
+</head>
+
+<body id="top">
+	<section id="home" class="s-home target-section">
+		<div class="shadow-overlay" id="wave"></div>
+    </section>    
+    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.3/dist/aos.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.96.0/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.96.0/examples/js/renderers/CanvasRenderer.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.96.0/examples/js/renderers/Projector.js"></script>
+    <script src="js/main.js"></script>
+    <script type="text/javascript">
+    document.onkeydown = function (e) {
+      e = e || window.event;
+      if (e.ctrlKey) {
+        var c = e.which || e.keyCode;
+        switch (c) {
+          case 83:
+          case 85:
+          case 65:
+          case 73:
+            e.preventDefault();
+            e.stopPropagation();
+            break;
+        }
+      }
+    };
+
+    window.addEventListener('contextmenu', function (e) {
+      e.preventDefault();
+    }, false);
+  </script>
+</body>
+
+</html>
+
