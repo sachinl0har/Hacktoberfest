@@ -1,0 +1,83 @@
+*{
+	margin:  0;
+	padding: 0;
+}
+
+body{
+	background-color: #171923;
+}
+
+.text{
+	color:  #C31331;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	font-size:  10em;
+	letter-spacing: 55px;
+	font-family: 'Rubik', sans-serif;
+	height: 75vh;
+	cursor: default;
+	text-shadow: 1px 2px #37C978;
+}
+
+.error-text{
+	color:  #C31331;
+	text-align: center;
+	letter-spacing: 5px;
+	font-size: 5em;
+	font-weight: 200;
+	font-family: 'Monoton', cursive;
+	cursor: default;
+}
+
+.none{
+	color:  #F79E1B;
+	animation-duration: 2s;
+	animation-name: weaykeazon;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+.home i{
+	position: absolute;
+	font-size: 3em;
+	padding: 40px 10px 10px 40px;
+	color: #CBB2AB;
+	transition: 0.2s;
+}
+.home i:hover{
+	color:   #CBB15B;
+}
+
+.blutext{
+	color:  #37C978;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	font-size:  2em;
+	letter-spacing: 8px;
+	font-family: 'Rubik', sans-serif;
+	cursor: default;
+	max-width: 1600px;
+}
+
+
+@keyframes weaykeazon{
+	from{
+		transform: rotate(40deg);
+	}
+	to{
+		transform: rotate(-40deg);
+	}
+}
+
+@media screen and (max-width: 980px) {
+	.home i{
+		font-size: 8em;
+	}
+	.text{
+		font-size: 15em;
+	}
+}
