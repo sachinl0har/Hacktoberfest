@@ -23,7 +23,9 @@ updateDict={
 myDict.update(updateDict)    #update the dictionary by adding key-value pairs from updatedict
 print(myDict)
 
-print(myDict.get("ALPHA"))   #prints value associated with key "ALPHA"
+
+if myDict.get("ALPHA",None): # Check condition value is asssociated or not else it will return None
+    myDict.get("ALPHA")  #prints value associated with key "ALPHA"
 print(myDict.get["ALPHA"])   #prints value associated with key "ALPHA"
 # the difference between .get and [] syntax in dictionary?
 print(myDict.get("ALPHA2"))  #returns none as ALPHA2 is not present in the dictionary
