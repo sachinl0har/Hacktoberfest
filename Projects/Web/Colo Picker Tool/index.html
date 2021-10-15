@@ -1,0 +1,40 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Color Picker</title>
+  <meta name="description" content="Color Picker HEX, RGB and HSL">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <h1>Color Picker</h1>
+
+    <input type="color" value="#000" id="colorPicker">
+
+  <script src="main.js">
+    const body = document.querySelector("body");
+const input = document.getElementById("colorPicker");
+const colorCode = document.getElementById("colorCode");
+
+setColor();
+input.addEventListener("input", setColor);
+
+function setColor() {
+    body.style.backgroundColor = input.nodeValue;
+    colorCode.innerHTML = input.nodeValue;
+}
+  </script>
+
+<div class="footer">
+  <h6 class="my-2">Made with <i class="fas fa-heart"></i> by <a
+      href="https://sachinlohar.ml/" target="_blank"><b>Sachin Lohar</b></a></h6>
+</div>
+
+</body>
+</html>
