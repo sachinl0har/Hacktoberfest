@@ -1,0 +1,42 @@
+body {
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+h1 {
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    font-family: Bebus Neue;
+    text-align: center;
+}
+input[type="color"] {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+    border: 2px solid #000;
+    border-radius: 3px;
+    margin: 20px;
+    outline: none;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(255, 116, 116);
+    color: white;
+    text-align: center;
+  }
+
+  a {
+    color: rgb(0, 0, 0);
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+}
