@@ -1,0 +1,45 @@
+{
+    "name": "alpha-dark-theme",
+    "displayName": "ALPHA DARK Theme",
+    "description": "This is a Red and Black Dark Theme.",
+    "version": "0.1.0",
+    "publisher": "sachinl0har",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sachinl0har/alphaVS-dark-theme"
+    },
+    "keywords": [
+        "theme",
+        "dark theme",
+        "alpha dark",
+        "sachinl0har",
+        "alpha",
+        "high contrast",
+        "AcroNoid",
+        "acro",
+        "sachin",
+        "lohar",
+        "acronoid",
+        "acro noid",
+        "alpha dev theme",
+        "alpha dark theme",
+        "alpha theme",
+        "black theme",
+        "alpha black theme"
+    ],
+    "engines": {
+        "vscode": "^1.56.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "ALPHA DARK",
+                "uiTheme": "vs-dark",
+                "path": "./themes/ALPHA DARK-color-theme.json"
+            }
+        ]
+    }
+}
