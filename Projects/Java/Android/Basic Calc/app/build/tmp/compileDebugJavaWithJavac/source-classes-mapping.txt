@@ -1,0 +1,30 @@
+com/example/basiccalculator/MainActivity.java
+ com.example.basiccalculator.MainActivity
+ com.example.basiccalculator.MainActivity$1
+ com.example.basiccalculator.MainActivity$10
+ com.example.basiccalculator.MainActivity$11
+ com.example.basiccalculator.MainActivity$12
+ com.example.basiccalculator.MainActivity$13
+ com.example.basiccalculator.MainActivity$14
+ com.example.basiccalculator.MainActivity$15
+ com.example.basiccalculator.MainActivity$16
+ com.example.basiccalculator.MainActivity$17
+ com.example.basiccalculator.MainActivity$18
+ com.example.basiccalculator.MainActivity$19
+ com.example.basiccalculator.MainActivity$2
+ com.example.basiccalculator.MainActivity$20
+ com.example.basiccalculator.MainActivity$21
+ com.example.basiccalculator.MainActivity$22
+ com.example.basiccalculator.MainActivity$23
+ com.example.basiccalculator.MainActivity$24
+ com.example.basiccalculator.MainActivity$25
+ com.example.basiccalculator.MainActivity$26
+ com.example.basiccalculator.MainActivity$3
+ com.example.basiccalculator.MainActivity$4
+ com.example.basiccalculator.MainActivity$5
+ com.example.basiccalculator.MainActivity$6
+ com.example.basiccalculator.MainActivity$7
+ com.example.basiccalculator.MainActivity$8
+ com.example.basiccalculator.MainActivity$9
+com/example/basiccalculator/BuildConfig.java
+ com.example.basiccalculator.BuildConfig
